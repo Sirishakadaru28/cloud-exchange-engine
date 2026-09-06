@@ -1,0 +1,5 @@
+[project]
+name = "cloud-exchange-engine"
+version = "1.0.0"
+description = "Beginner-friendly cloud exchange order matching engine"
+requires-python = ">=3.12,<3.13"
