@@ -1,0 +1,15 @@
+[project]
+name = "cloud-exchange-engine"
+version = "1.0.0"
+description = "Beginner-friendly cloud exchange order matching engine"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi==0.115.12",
+    "mangum==0.19.0",
+    "SQLAlchemy==2.0.41",
+    "psycopg[binary]==3.2.9",
+    "pydantic==2.11.5"
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
